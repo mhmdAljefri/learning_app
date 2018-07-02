@@ -1,0 +1,7 @@
+{
+  "name": "test-react-on-rails",
+  "private": true,
+  "dependencies": {
+    "@rails/webpacker": "3.5"
+  }
+}
