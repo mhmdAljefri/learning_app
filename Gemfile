@@ -9,7 +9,7 @@ gem 'puma', '~> 3.11'                  # Use Puma as the app server
 gem 'sass-rails', '~> 5.0'             # Use SCSS for stylesheets
 gem 'uglifier', '>= 1.3.0'             # Use Uglifier as compressor for JavaScript assets
 gem 'webpacker'                        # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
-# gem 'mini_racer', platforms: :ruby   # See https://github.com/rails/execjs#readme for more supported runtimes
+gem 'mini_racer', platforms: :ruby     # See https://github.com/rails/execjs#readme for more supported runtimes
 gem 'react_on_rails', '11.0.8'         # prefer exact gem version to match npm version
 gem 'coffee-rails', '~> 4.2'           # Use CoffeeScript for .coffee assets and views
 gem 'turbolinks', '~> 5'               # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
@@ -42,3 +42,5 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+gem 'mini_racer', platforms: :ruby
